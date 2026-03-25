@@ -73,6 +73,7 @@ The bot currently uses constant placeholders for IDs and token in code.
 In the `kutsu` flow, the bot sends rules as a Discord channel link using the `RULES` constant.
 
 ![Example of Jahtimestari Discord bot in use](jahtimestari_example_1.png)
+![Example of Jahtimestari Discord bot in use](jahtimestari_example_2.png)
 
 ## Intended Use
 
