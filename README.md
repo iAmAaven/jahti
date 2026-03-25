@@ -21,6 +21,7 @@ The game is structured as a multi-stage scavenger hunt.
 4. Correct answers unlock the next step, including location clues.
 5. At the end, each player gets a personal reward page with a redeem button.
 
+
 ## Project Structure
 
 - Frontend - Jahti
@@ -37,6 +38,9 @@ Contains all static web content:
 - Shared symbols/assets.
 
 The frontend is static HTML/CSS/JS and can be served from any static host.
+
+![Example of Mnemosyne frontend](mnemosyne_example.png)
+![Example question of Mnemosyne](mnemosyne_question.png)
 
 ### Backend - Jahti
 
@@ -55,6 +59,8 @@ Expected document shape:
 
 Document id is the player key used by coupon pages, for example jahtaaja1.
 
+![Example of lipuke backend](lipuke_example.png)
+
 ### Discord Bot - Jahtimestari
 
 Python Discord bot that:
@@ -65,6 +71,9 @@ Python Discord bot that:
 
 The bot currently uses constant placeholders for IDs and token in code.
 In the `kutsu` flow, the bot sends rules as a Discord channel link using the `RULES` constant.
+
+![Example of Jahtimestari Discord bot in use](jahtimestari_example_1.png)
+![Example of Jahtimestari Discord bot in use](jahtimestari_example_2.png)
 
 ## Intended Use
 
