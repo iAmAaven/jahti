@@ -1,0 +1,30 @@
+**:small_orange_diamond::small_orange_diamond::small_orange_diamond::small_orange_diamond::small_orange_diamond:**
+
+### :hourglass_flowing_sand: Valittu, Sinulla on keskiyöhön asti aikaa saavuttaa Portti.
+
+‎
+### 1. OSALLISTUMINEN
+> Osallistuminen on vapaaehtoista, mutta jokainen Polun kulkenut saa palkintoja. Polkusi on ainutlaatuinen.
+> Apua saa ja kannattaa pyytää esimerkiksi muilta Valituilta ja/tai tekoälyltä.
+### :warning: Älä etsi oikoreittejä; palkinnot on ansaittava. KUISKE.exe näkee kaiken.
+
+‎
+### 2. PELIN KULKU
+> Peli koostuu seitsemästä (7) vaiheesta, ja kestää yhteensä arviolta 0,5 - 1,0 h. Sinä päätät askeltesi nopeuden.
+> **Oikeat vastaukset on lähetettävä JAHTIMESTARILLE yksityisviestillä.**
+
+> Saat vihjeen.
+> Ratkaise se.
+> Lähetä vastaus JAHTIMESTARILLE.
+> Jos se on oikea, saat seuraavan vihjeen.
+
+### 3. YMPÄRISTÖMUUTTUJAT
+> **KUISKE.exe** ei toimi vain verkossa.
+> Jokaisen polulle on asetettu este, joka on pakko kiertää poistumalla hetkellisesti digitaalisesta maailmasta. Varaudu tähän esteeseen.
+
+### 4. PORTIN SAAVUTTAMINEN
+> Portilla jokaista Valittua odottaa kaksi palkintoa, joista **ensimmäinen on mahdollista vaihtaa toiseen**.
+
+### :small_red_triangle_down: PORTTI ON AVAUTUNUT. KÄVELE POLKUSI.
+
+### THE SEARCH ENDS <t:1742594400:R>

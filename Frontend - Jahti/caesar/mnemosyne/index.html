@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MNEMOSYNE - PLAYER 3</title>
+    <link rel="stylesheet" href="style_mnemosyne.css">
+</head>
+<body>
+    <div id="container">
+        <h1 id="title">PLAYER 3</h1>
+        <p id="intro">
+            Astu ulos Sielustasi ja unohda hetkeksi kaikki, mikä Sinut määrittää.
+            <br><br>
+            ☉──⭒─⭑─⭒──☉──⭒─⭑─⭒──☉
+            <br><br>
+            <strong>Olet Mnemosyne - muistin ja historian jumalatar.</strong>
+            <br><br>
+            ☉──⭒─⭑─⭒──☉──⭒─⭑─⭒──☉
+            <br>
+            <br>Sinä olet menneisyyden ääni.
+            <br>Kaikki, mikä on ollut, virtaa Sinun lävitsesi.
+            <br>Sinä muistat kaiken - myös sen, mitä muut haluaisivat unohtaa.  
+            <br><br>
+
+            Totuus ei katoa.  
+            <br>Ei vaikka se haudattaisiin, ei vaikka aika kääntyisi itseään vastaan.
+            <br>Sinä olet silta menneen ja tulevan välillä.
+            <br><br><br>
+        
+            <strong>KÄYTÖKSESI ON LAINKUULIAS-NEUTRAALI.</strong><br>
+            <br>Et ota kantaa - Sinä vain muistat.
+            <br>Olet olemassa, jotta kukaan ei voisi paeta menneisyyttään.
+            <br><br>
+            
+            <strong>Mnemosyne.</strong> Sinulle on annettu rooli tässä maailmassa. Älä unohda sitä.
+        </p>
+        
+        <button id="startButton" onclick="startGame()">SELVÄ</button>
+
+        <div id="game" class="hidden">
+            <p id="question"></p>
+            <button id="optionA" onclick="answer('A')"></button>
+            <button id="optionB" onclick="answer('B')"></button>
+            <p id="lives">Elämät: 💛💛</p>
+        </div>
+
+        <div id="endScreen" class="hidden">
+            <p id="endMessage"></p>
+            <button id="restartButton" class="hidden" onclick="location.reload()">Yritä uudelleen</button>
+        </div>
+    </div>
+    <script src="script_mnemosyne.js"></script>
+</body>
+</html>

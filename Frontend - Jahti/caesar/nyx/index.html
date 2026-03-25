@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYX - PLAYER 4</title>
+    <link rel="stylesheet" href="style_nyx.css">
+</head>
+<body>
+    <div id="container">
+        <h1 id="title">PLAYER 4</h1>
+        <p id="intro">
+            Astu ulos Sielustasi ja unohda hetkeksi kaikki, mikä Sinut määrittää.
+            <br><br>
+            ⚝─⭒─⭑─⭒─⚝─⭒─⭑─⭒─⚝
+            <br><br>
+            <strong>Olet Nyx - yön jumalatar.</strong>
+            <br><br>
+            ⚝─⭒─⭑─⭒─⚝─⭒─⭑─⭒─⚝
+            <br>
+            <br>Sinä olit täällä ennen muita.
+            <br>Olet varjojen valtias, pimeyden alkulähde,
+            <br>ja kaikkein vanhimpien voimien kantaja.
+            <br>
+            <br>Muut jumalat pelkäävät Sinua ja kuolevaiset kuiskaavat nimeäsi yön tunteina - toiset rukoillen turvaa, toiset peläten tuloasi.
+            <br><br><br>
+        
+            <strong>KÄYTÖKSESI ON KAOOTTISEN NEUTRAALI.</strong><br>
+            <br>Olet itsevarma ja vahva, etkä välitä muiden mielipiteistä.  
+            Et kysy lupaa - et myöskään pyydä anteeksi.  
+            <br><br>
+            Uskot, että jokaisella on oikeus valita oma tiensä,  
+            mutta varjot eivät anna armoa niille, jotka eksyvät.  
+            Valo on vain väliaikaista - lopulta kaikki päättyy pimeyteen.  
+            <br><br>
+            <strong>Nyx.</strong> Sinulle on annettu rooli tässä maailmassa. Älä unohda sitä.
+
+        </p>
+        
+        <button id="startButton" onclick="startGame()">SELVÄ</button>
+
+        <div id="game" class="hidden">
+            <p id="question"></p>
+            <button id="optionA" onclick="answer('A')"></button>
+            <button id="optionB" onclick="answer('B')"></button>
+            <p id="lives">Elämät: 💚💚</p>
+        </div>
+
+        <div id="endScreen" class="hidden">
+            <p id="endMessage"></p>
+            <button id="restartButton" class="hidden" onclick="location.reload()">Yritä uudelleen</button>
+        </div>
+    </div>
+    <script src="script_nyx.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+body {
+    background-color: rgba(0, 0, 0, 1);
+    position: relative;
+    color: rgb(179, 237, 241);
+    font-family: 'Georgia', serif;
+    text-align: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-size: 1.7vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('mnemosyne_pic.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    filter: blur(8px);
+    z-index: -1;
+    background-color: rgba(0, 14, 14, 0.6);
+    background-blend-mode: darken;
+    animation: backgroundCircle 5s infinite linear;
+}
+
+@keyframes backgroundCircle {
+    0% {
+        transform: scale(1.1) rotate(0deg) translateY(10px) rotate(0deg);
+    }
+
+    100% {
+        transform: scale(1.1) rotate(360deg) translateY(10px) rotate(-360deg);
+    }
+}
+
+strong,
+h1 {
+    color: rgb(235, 213, 117);
+    text-shadow: 0 4px 4px rgb(0, 0, 0);
+}
+
+#container {
+    position: relative;
+    z-index: 1;
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgba(23, 59, 65, 0.555);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #00ffff;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    font-family: 'Georgia', serif;
+    text-shadow: 0 4px 4px rgb(0, 0, 0);
+    background-color: #c0b62538;
+    color: rgb(255, 243, 187);
+    border: 1px solid rgb(235, 213, 117);
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 1.5vh;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fcee3269;
+}
+
+#game button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}

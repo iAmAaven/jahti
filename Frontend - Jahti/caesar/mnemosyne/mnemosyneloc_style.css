@@ -1,0 +1,84 @@
+body {
+    background-color: rgba(0, 0, 0, 1);
+    position: relative;
+    color: rgb(179, 237, 241);
+    font-family: 'Georgia', serif;
+    text-align: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-size: 1.7vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('mnemosyne_pic.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    filter: blur(8px);
+    z-index: -1;
+    background-color: rgba(0, 14, 14, 0.6);
+    background-blend-mode: darken;
+    animation: backgroundCircle 5s infinite linear;
+}
+
+@keyframes backgroundCircle {
+    0% {
+        transform: scale(1.1) rotate(0deg) translateY(10px) rotate(0deg);
+    }
+
+    100% {
+        transform: scale(1.1) rotate(360deg) translateY(10px) rotate(-360deg);
+    }
+}
+
+strong,
+h1 {
+    color: rgb(255, 200, 150);
+    text-shadow: 0 4px 4px rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.hidden-text {
+    display: none;
+    font-size: 20px;
+    color: rgb(255, 190, 140);
+}
+
+.hidden-area {
+    position: relative;
+    width: 80%;
+    max-width: 500px;
+    height: 500px;
+    margin: 20px auto;
+    border: 3px solid #ffffff;
+    overflow: hidden;
+    background-color: rgb(23, 59, 65);
+}
+
+.hidden-button {
+    position: absolute;
+    background-color: rgb(23, 59, 65);
+    border: none;
+    color: #5a3e1b;
+    font-size: 20px;
+    padding: 30px 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hidden-button:hover {
+    background-color: rgb(38, 100, 110);
+}

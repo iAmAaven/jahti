@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAHJA SINULLE, PLAYER 3</title>
+    <link rel="stylesheet" href="style_lipuke.css">
+</head>
+<body>
+    <h2>KUISKE.exe HALUAA
+        <br>KIITTÄÄ SINUA,
+            PLAYER 3</h2>
+    
+    <div class="kiitos"></div>
+
+    <div class="card" onclick="flipCard()">
+        <div class="card-inner">
+            <div class="card-front">
+                <img src="../symbols/kuiske.jpg" alt="KUISKE.exe" style="max-width: 100%;">
+            </div>
+            <div class="card-back">
+                <p id="juomakorttiText"></p>
+            </div>
+        </div>
+    </div>
+
+    <p>Onnea, Valittu.
+    <br>Sinun polkusi on päättynyt.</p>
+    <h4>- KUISKE.exe</h4>
+
+    <p id="status">Tarkistetaan tilannetta...</p>
+    <button id="redeemButton" onclick="redeem()" disabled>LUNASTA</button>
+    <input type="hidden" id="playerID" value="jahtaaja3">
+
+    <script src="lipuke_script.js"></script>
+</body>
+</html>

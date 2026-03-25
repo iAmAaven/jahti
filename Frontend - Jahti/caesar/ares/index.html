@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARES - PLAYER 2</title>
+    <link rel="stylesheet" href="style_ares.css">
+</head>
+<body>
+    <div id="container">
+        <h1 id="title">PLAYER 2</h1>
+        <p id="intro">
+            Astu ulos Sielustasi ja unohda hetkeksi kaikki, mikä Sinut määrittää.
+            <br><br>
+            ⛨──⭒─⭑─⭒──⛨──⭒─⭑─⭒──⛨
+            <br><br>
+            <strong>Olet Ares - sodan ja väkivallan jumala.</strong>
+            <br><br>
+            ⛨──⭒─⭑─⭒──⛨──⭒─⭑─⭒──⛨
+            <br>
+            <br>Sinun tiesi on tuhottu kaupunki.
+            <br>Sinun polkusi on verilammikoiden halki kuljettu.
+            <br>Kun maailma palaa, Sinä seisot sen raunioilla.  
+            <br><br>
+
+            Sinä olet hallitsematon.  
+            <br>Sinä olet viha, joka ei tunne armoa.  
+            <br>Sinä olet miekka, jonka kahvaan kukaan ei uskalla tarttua.  
+            <br><br><br>
+        
+            <strong>KÄYTÖKSESI ON KAOOTTISEN PAHA.</strong><br>
+            <br>Sinä et taistele kunnian vuoksi.
+            <br>Sinä et sodi oikeuden puolesta.
+            <br>Sinä olet väkivalta itse - ja maailma kumartuu edessäsi.  
+            <br><br>
+            
+            <strong>Ares.</strong> Sinulle on annettu rooli tässä maailmassa. Älä unohda sitä.
+        </p>
+        
+        <button id="startButton" onclick="startGame()">SELVÄ</button>
+
+        <div id="game" class="hidden">
+            <p id="question"></p>
+            <button id="optionA" onclick="answer('A')"></button>
+            <button id="optionB" onclick="answer('B')"></button>
+            <p id="lives">Elämät: ❤️❤️</p>
+        </div>
+
+        <div id="endScreen" class="hidden">
+            <p id="endMessage"></p>
+            <button id="restartButton" class="hidden" onclick="location.reload()">Yritä uudelleen</button>
+        </div>
+    </div>
+    <script src="script_ares.js"></script>
+</body>
+</html>

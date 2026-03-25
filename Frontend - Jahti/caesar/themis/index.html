@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THEMIS - PLAYER 5</title>
+    <link rel="stylesheet" href="style_themis.css">
+</head>
+<body>
+    <div id="container">
+        <h1 id="title">PLAYER 5</h1>
+        <p id="intro">
+            Astu ulos Sielustasi ja unohda hetkeksi kaikki, mikä Sinut määrittää.
+            <br><br>
+            ⚖──⭒─⭑─⭒──⚖──⭒─⭑─⭒──⚖
+            <br><br>
+            <strong>Olet Themis - oikeuden ja kohtalon jumalatar.</strong>
+            <br><br>
+            ⚖──⭒─⭑─⭒──⚖──⭒─⭑─⭒──⚖
+            <br>
+            <br>Sinä olet tasapaino.
+            <br>Sinä olet ääni, joka ohjaa maailmaa eteenpäin.
+            <br>Kun muut epäröivät, Sinä päätät.  
+            <br><br>
+
+            Sinun silmäsi näkevät totuuden,  
+            ja Sinun kätesi punnitsevat jokaisen teon.  
+            <br><br><br>
+        
+            <strong>KÄYTÖKSESI ON LAINKUULIAS-HYVÄ.</strong><br>
+            <br>Olet vahva, mutta lempeä.
+            <br>Johdat valolla, etkä koskaan alennu epäoikeudenmukaisuuteen. Ylläpidät lakia, mutta osaat tuomita myös armon hengessä.
+            <br><br>
+            
+            <strong>Themis.</strong> Sinulle on annettu rooli tässä maailmassa. Älä unohda sitä.
+        </p>
+        
+        <button id="startButton" onclick="startGame()">SELVÄ</button>
+
+        <div id="game" class="hidden">
+            <p id="question"></p>
+            <button id="optionA" onclick="answer('A')"></button>
+            <button id="optionB" onclick="answer('B')"></button>
+            <p id="lives">Elämät: 🧡🧡</p>
+        </div>
+
+        <div id="endScreen" class="hidden">
+            <p id="endMessage"></p>
+            <button id="restartButton" class="hidden" onclick="location.reload()">Yritä uudelleen</button>
+        </div>
+    </div>
+    <script src="script_themis.js"></script>
+</body>
+</html>
