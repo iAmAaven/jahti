@@ -3,7 +3,7 @@
 > **Author note:** This project was built heavily with AI assistance and is meant to showcase how I can use AI effectively in a real, end-to-end project. In most of my other work, I try to avoid AI as much as possible. For example, I specifically no longer use AI in my video game projects in any way.
 
 JAHTI was an interactive, story-driven puzzle hunt. Since I hosted and managed the game locally during a lan event at my school, it cannot be played anymore.
-Players (my friends) received clues through a Discord bot (JAHTIMESTARI), solved ciphers and riddles from web, and eventually unlocked a reward coupon.
+Players (my friends) received clues through a Discord bot (JAHTIMESTARI), solved ciphers and riddles from websites, and eventually unlocked a reward coupon.
 Most of the websites and all messages sent by the Discord bot were made in Finnish.
 
 <img width="1881" height="115" alt="image" src="https://github.com/user-attachments/assets/dab02704-20d6-4a62-9291-ab86f7ce2789" />
