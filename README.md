@@ -2,14 +2,23 @@
 
 > **Author note:** This project was built heavily with AI assistance and is meant to showcase how I can use AI effectively in a real, end-to-end project. In most of my other work, I try to avoid AI as much as possible. For example, I specifically no longer use AI in my video game projects in any way.
 
-JAHTI is an interactive, story-driven puzzle hunt.
-Players receive clues through a Discord bot (JAHTIMESTARI), solve ciphers and riddles on web pages, and eventually unlock a reward coupon flow.
+JAHTI was an interactive, story-driven puzzle hunt. Since I hosted and managed the game locally during a lan event at my school, it cannot be played anymore.
+Players (my friends) received clues through a Discord bot (JAHTIMESTARI), solved ciphers and riddles from web, and eventually unlocked a reward coupon.
+Most of the websites and all messages sent by the Discord bot were made in Finnish.
 
+<img width="1881" height="115" alt="image" src="https://github.com/user-attachments/assets/dab02704-20d6-4a62-9291-ab86f7ce2789" />
+The first clue: https://jahti.onrender.com/
+
+---
+  
 The experience combines three parts:
 
 1. A Discord bot that acts as narrator and puzzle gatekeeper.
 2. A static frontend with puzzle pages and ending/reward pages.
 3. A backend API that marks reward coupons as redeemed in Firestore.
+
+> [!NOTE]
+> All sensitive data like tokens and IDs have been sensored in this repo.
 
 ## What The Game Is About
 
@@ -21,12 +30,19 @@ The game is structured as a multi-stage scavenger hunt.
 4. Correct answers unlock the next step, including location clues.
 5. At the end, each player gets a personal reward page with a redeem button.
 
+![Example of Mnemosyne frontend](mnemosyne_example.png)
+
+---
 
 ## Project Structure
 
 - Frontend - Jahti
 - Backend - Jahti
 - Discord Bot - Jahtimestari
+
+![Example question of Mnemosyne](mnemosyne_question.png)
+
+---
 
 ### Frontend - Jahti
 
@@ -39,8 +55,8 @@ Contains all static web content:
 
 The frontend is static HTML/CSS/JS and can be served from any static host.
 
-![Example of Mnemosyne frontend](mnemosyne_example.png)
-![Example question of Mnemosyne](mnemosyne_question.png)
+
+<img width="1912" height="911" alt="image" src="https://github.com/user-attachments/assets/a53e3a3a-57eb-4a6a-aac9-dcf4037da4f3" />
 
 ### Backend - Jahti
 
@@ -101,7 +117,7 @@ Keep frontend and backend domains aligned for CORS and API URL values.
 
 ## Running A Game Session
 
-The original game flow was coordinated manually by organizers using:
+The original game flow was coordinated manually by me using:
 
 1. A live Discord bot session.
 2. Hosted puzzle pages for each route.
@@ -115,3 +131,4 @@ This section is descriptive only and not a reproduction guide.
 - Backend: Node.js, Express, Firebase Admin SDK
 - Bot: Python, discord.py
 
+## Thank you for reading!
